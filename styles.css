@@ -1,7 +1,11 @@
 .bg-fond {
-    background-color: #6BFF86;
+    background-color: rgb(224, 222, 211);
 }
 
 .f-satisfy {
     font-family: 'Satisfy', cursive;
+}
+
+.title {
+    font-size: 70px;
 }
