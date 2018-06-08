@@ -14,151 +14,185 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Satisfy|Shadows+Into+Light" rel="stylesheet">
-    
+
 </head>
 
 <body>
-    <div class="container-fluid bg-fond">
-
+    <div class="container-fluid bg-marron">
 
         <!-- menu -->
-        
-        <nav class="row navbar fixed-top navbar-expand-lg navbar-light bg-light ">
-            
+
+        <nav class="row navbar navbar-expand-lg navbar-light bg-light ">
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end font-weight-bold" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse justify-content-center font-weight-bold f-shadow" id="navbarNavDropdown">
                 <ul class="navbar-nav ">
-                    <li class="nav-item active ">
-                        <a class="nav-link " href="#">
-                            <span class="color-azur">A propos</span>
+                    <li class="nav-item active pr-4">
+                        <a class="nav-link" data-toggle="collapse" href="#div1">
+                            <span class="color-green font-weight-bold">A propos</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Compétences</a>
+                    <li class="nav-item pr-4">
+                        <a class="nav-link" data-toggle="collapse" href="#div2">Compétences</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projets</a>
+                    <li class="nav-item pr-4">
+                        <a class="nav-link" data-toggle="collapse" href="#div3">Projets</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                    <li class="nav-item pr-4">
+                        <a class="nav-link" data-toggle="collapse" href="#div4">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <!-- presentation -->
+        <!-- Header -->
 
-        <header class="bg-light mt-5">
-            <section class="row justify-content-center p-5">
-                <div class="col-md-8 p-md-5 text-center">
-                    <h1 class="f-satisfy pb-5 title">Anna Piaraly</h1>
-                    <p>En formation Developpeur Web à Simplon Réunion, je souhaite intégrer une entreprise dans le cadre d'un
-                        contrat de professionnalisation</p>
-                </div>
-            </section>
+        <header class="row justify-content-center text-center p-6">
+
+
+            <h1 class="display-4 p-5 text-uppercase">Anna
+                <span class="color-green">Piaraly</span>
+                <p>
+                    <small>
+                        <span class="color-green">Developpeur web</span> Junior</small>
+                </p>
+            </h1>
+
         </header>
 
 
+
+        <!-- A propos -->
+
+        <div class="collapse" id="div1">
+            <div class="card card-body align-items-center">
+                <h1 class="f-shadow">A propos</h1>
+                <p>En formation Developpeur Web à Simplon Réunion, je souhaite intégrer une entreprise dans le cadre d'un contrat
+                    de professionnalisation</p>
+            </div>
+        </div>
+
         <!-- compétences -->
 
-        <div class="bg-light mt-5">
-            <section class="row justify-content-center ">
-                <div class="col-md-8 partie p-md-5 text-center">
-                    <h1 class="partie f-satisfy">Compétences</h1>
-                
+        <div class="collapse" id="div2">
+            <div class="card card-body align-items-center">
+                <h1 class="f-shadow">Compétences</h1>
+                <div class="row">
 
                     <figure class="figure">
-                        <img src="img/html.jpeg" class="w-50 rounded-circle" alt="HTML">
+                        <img src="img/html.jpeg" class="w-25 rounded-circle" alt="HTML">
                         <figcaption class="figure-caption">HTML</figcaption>
                     </figure>
-        
+
                     <figure class="figure">
-                        <img src="img/css.png" class="w-50 rounded-circle" alt="CSS">
+                        <img src="img/css.png" class="w-25
+                         rounded-circle" alt="CSS">
                         <figcaption class="figure-caption">CSS</figcaption>
                     </figure>
-        
+
                     <figure class="figure">
-                        <img src="img/js.png" class="w-50 rounded-circle" alt="JS">
+                        <img src="img/js.png" class="w-25
+                         rounded-circle" alt="JS">
                         <figcaption class="figure-caption">JavaScript</figcaption>
                     </figure>
-        
+
                     <figure class="figure">
-                        <img src="img/jquery.jpeg" class="w-50 rounded-circle" alt="jQuery">
+                        <img src="img/jquery.jpeg" class="w-25
+                         rounded-circle" alt="jQuery">
                         <figcaption class="figure-caption">jQuery</figcaption>
                     </figure>
-        
+
                     <figure class="figure">
-                        <img src="img/bootstrap.jpeg" class="w-50 rounded-circle" alt="Bootstrap 4">
+                        <img src="img/bootstrap.jpeg" class="w-25
+                         rounded-circle" alt="Bootstrap 4">
                         <figcaption class="figure-caption">Bootstrap 4</figcaption>
                     </figure>
                 </div>
-            </section>
+            </div>
         </div>
 
-            <!-- projets -->
+        <!-- projets -->
 
-            <div class="bg-light mt-5">
-                <section class="row justify-content-center ">
-                    <div class="col-md-8 p-md-5 text-center">
-                        <h1 class="f-satisfy">Projets</h1>
-                </section>
-                </div>
+        <div class="collapse" id="div3">
+            <div class="card card-body align-items-center">
+                <h1 class="f-shadow">Projets</h1>
+                <div class="row mt-4 justify-content-center">
 
-                <!-- contact -->
-
-                <div class="bg-light mt-5">
-                    <section class="row justify-content-center ">
-                        <div class="col-md-8 p-md-5 text-center">
-                            <h1 class="f-satisfy">Contact</h1>
-                            <i class="far fa-envelope"></i>
-                            <p>annapiaraly@gmail.com</p>
-
-                            <form class="text-center">
-                                <div class="row">
-                                    <div class="col-lg-6 form-group">
-                                        <label for="exampleFormControlInput1"></label>
-                                        <input type="name" class="form-control" placeholder="Nom">
-                                    </div>
-                                    <div class="col-lg-6 form-group">
-                                        <label for="exampleFormControlInput1"></label>
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1"></label>
-                                    <textarea class="form-control" rows="1" placeholder="Sujet du message"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1"></label>
-                                    <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                                </div>
-                                <a class="btn btn-outline-dark m-2 pr-4 pl-4 border-dark" href="#">Envoyer</a>
-                            </form>
-
-                    </section>
-                    </div>
+                    <figure class="col-lg-3 figure">
+                        <img class="w-25" src="img/Projets/bootstrap.jpeg" alt="">
+                        <figcaption class="figure-caption">Integration avec bootstrap</figcaption>
+                    </figure>
+                    <figure class="col-lg-3 figure">
+                        <img class="w-25" src="img/Projets/integration-front1.png" alt="">
+                        <figcaption class="figure-caption">Integration front 1</figcaption>
+                    </figure>
+                    <figure class="col-lg-3 figure">
+                        <img class="w-25" src="img/Projets/integration-front2.png" alt="">
+                        <figcaption class="figure-caption">Integration front 2</figcaption>
+                    </figure>
 
                 </div>
+            </div>
 
-                <!-- Optional JavaScript -->
-                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+            <!-- contact -->
 
-                <script src="app.js"></script>
+            <div class="collapse" id="div4">
+                <div class="card card-body align-items-center">
+                    <h1 class="f-shadow">Contact</h1>
+                    <i class="far fa-envelope"></i>
+                    <a href="mailto:annapiaraly@gmail.com">annapiaraly@gmail.com</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-                    crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-                    crossorigin="anonymous"></script>
-                
+    <!-- <form class="row text-center">
 
-                
-               
-                
+                        <div class="col-lg-6 form-group">
+                            <label for="exampleFormControlInput1"></label>
+                            <input type="name" class="form-control" placeholder="Nom">
+                        </div>
+                        <div class="col-lg-6 form-group">
+                            <label for="exampleFormControlInput1"></label>
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" rows="1" placeholder="Sujet du message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <a class="btn btn-outline-dark m-2 pr-4 pl-4 border-dark" href="#">Envoyer</a>
+                    </form>
+                -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+    <script src="app.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+
+
 </body>
 
 </html>

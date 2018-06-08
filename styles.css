@@ -1,11 +1,37 @@
-.bg-fond {
-    background-color: rgb(224, 222, 211);
-}
+
 
 .f-satisfy {
     font-family: 'Satisfy', cursive;
 }
 
-.title {
-    font-size: 70px;
+.f-shadow {
+    font-family: 'ShadowsIntoLight';
+}
+
+.bg-green {
+    background-color: #C5FF4F;
+}
+
+.bg-orange {
+    background-color: #FF7A62;
+}
+
+.bg-marron {
+    background-color: rgb(224, 222, 211);
+}
+
+.color-green {
+    color: #B23C72;
+}
+
+.color-orange {
+    color: #FF7A62;
+}
+
+.color-marron {
+    color: rgb(224, 222, 211);
+}
+
+.p-6 {
+    padding: 10%;
 }
