@@ -1,37 +1,47 @@
 
 
-.f-satisfy {
-    font-family: 'Satisfy', cursive;
+.color-pink {
+    color: #B23C72;
 }
 
-.f-shadow {
-    font-family: 'ShadowsIntoLight';
+
+.f-raleway {
+    font-family: 'Raleway', sans-serif;
 }
 
-.bg-green {
-    background-color: #C5FF4F;
-}
-
-.bg-orange {
-    background-color: #FF7A62;
+header {
+    height: 100vh;
 }
 
 .bg-marron {
     background-color: rgb(224, 222, 211);
 }
 
-.color-green {
-    color: #B23C72;
+.color-purple {
+    color: #B22D41;
 }
 
-.color-orange {
-    color: #FF7A62;
+.orange {
+    color: #FFBD33;
 }
 
-.color-marron {
-    color: rgb(224, 222, 211);
+.light-green {
+background-color: #E3FCEC;
 }
 
-.p-6 {
-    padding: 10%;
+.green {
+    color: #4EFF48;
+}
+
+.t-shadow {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.icon-size {
+    font-size: 40px;
+}
+
+hr {
+    border-bottom: 3px solid #4EFF48;
+    width: 150px;
+    
 }
