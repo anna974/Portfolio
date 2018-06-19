@@ -45,3 +45,31 @@ hr {
     width: 150px;
     
 }
+
+.imgslide {
+    height: 500px;
+    width: 200px;
+ 
+}
+
+#arrow {
+    position: relative;
+    top: 10%;
+
+}
+
+.bla {
+    animation: fleche 4s infinite;
+}
+
+@keyframes fleche {
+    0% {
+        color: white;
+    }
+    50% {
+        color: grey;
+    }
+    100% {
+        color: white;
+    }
+}
