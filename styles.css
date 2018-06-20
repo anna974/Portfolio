@@ -21,14 +21,6 @@ header {
     color: #B22D41;
 }
 
-.orange {
-    color: #FFBD33;
-}
-
-.light-green {
-background-color: #E3FCEC;
-}
-
 .green {
     color: #4EFF48;
 }
@@ -40,34 +32,27 @@ background-color: #E3FCEC;
     font-size: 40px;
 }
 
-hr {
+.green_hr {
     border-bottom: 3px solid #4EFF48;
     width: 150px;
     
 }
 
-previcon {
-color: black;
-}
 
-#arrow {
-    position: relative;
-    top: 10%;
-
-}
-
-.bla {
-    animation: fleche 4s infinite;
-}
-
-@keyframes fleche {
+  
+  @keyframes cd-bounce-1 {
     0% {
-        color: white;
+      opacity: 0;
+      transform: scale(0.5);
     }
-    50% {
-        color: grey;
+  
+    60% {
+      opacity: 1;
+      transform: scale(1.2);
     }
+  
     100% {
-        color: white;
+      transform: scale(1);
     }
-}
+  };
+
