@@ -25,6 +25,7 @@ header {
     color: #4EFF48;
 }
 
+
 .t-shadow {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -38,21 +39,22 @@ header {
     
 }
 
+#myarrow{
+    
+    position: relative;
+    top: 300%;
+    
+    animation: bounce 0.50s infinite alternate;
+}
 
-  
-  @keyframes cd-bounce-1 {
-    0% {
-      opacity: 0;
-      transform: scale(0.5);
-    }
-  
-    60% {
-      opacity: 1;
-      transform: scale(1.2);
-    }
-  
-    100% {
-      transform: scale(1);
-    }
-  };
+@keyframes bounce{
+     from {transform: translateY(0);}
+     to   {transform: translateY(-20px);}
+}
 
+@media only screen and (max-width: 600px) {
+    #myarrow {
+        position: relative;
+        top: 50%;
+    }
+}
