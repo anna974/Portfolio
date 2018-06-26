@@ -42,7 +42,7 @@ header {
 #myarrow{
     
     position: relative;
-    top: 300%;
+    top: 400%;
     
     animation: bounce 0.50s infinite alternate;
 }
